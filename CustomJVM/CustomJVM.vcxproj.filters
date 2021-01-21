@@ -18,5 +18,13 @@
     <ClCompile Include="CustomJVM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vm\vm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vm\vm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
