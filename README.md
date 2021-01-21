@@ -13,12 +13,11 @@ This was made for minecraft but can be used for other java programs.
 You have to create a custom start class like this example for minecraft
 ```java
 
-public class Start
-{
+public class Start {
     public static void main(String[] args) {
         final String applicationData = System.getenv("APPDATA");
         final File workingDirectory = new File(applicationData, ".minecraft/");
-        Main.main(new String[] { "--version", "1.8.9", "--accessToken", "0", "--assetIndex", "1.8", "--userProperties", "{}", "--gameDir", new File(workingDirectory, ".").getAbsolutePath(), "--assetsDir", new File(workingDirectory, "assets/").getAbsolutePath() });
+        Main.main(new String[] { "--version", "1.8.9", "--accessToken", "0", "--assetIndex", "1.8", "--userProperties", "{}", "--gameDir", new File(workingDirectory, ".").getAbsolutePath(), "--assetsDir", new File(workingDirectory, "assets/").getAbsolutePath());
     }
 }
 ```
