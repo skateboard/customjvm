@@ -1,6 +1,6 @@
 <h1 align="center">CustomJVM</h1>
 <div align="center">
-<strong> A customjvm made for minecraft!</strong>
+<strong> A customjvm made for java!</strong>
 </div>
 <br />
 
