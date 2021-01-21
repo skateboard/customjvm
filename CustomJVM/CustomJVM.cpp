@@ -19,6 +19,7 @@ int main()
         printf("Failed to create JVM! \n");
         return 1;
     }
+    vm::add_to_path(env, "test.jar");
 
     //start the program
     jclass start_class = env->FindClass("Start");
