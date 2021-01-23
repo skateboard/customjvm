@@ -5,9 +5,7 @@
 <br />
 
 # Introduction
-This is a very simple c++ program that creates a custom JVM then finds the start class and calls the main(String[]) static void.
-
-This was made for minecraft but can be used for other java programs.
+This is a simple C++ program that creates a JVM inside the program. It finds a class called ```Start``` and calls main(String[]) static void!
 
 # Start Class Example
 You have to create a custom start class like this example for minecraft
